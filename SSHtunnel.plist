@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tunnel 1</key>
+	<dict>
+		<key>tunnelname</key>
+		<string>Test Tunnel 1</string>
+		<key>user</key>
+		<string>username</string>
+		<key>tunnelserver</key>
+		<string>tunnelserver.company.com</string>
+		<key>targetserver</key>
+		<string>myserver</string>
+		<key>remoteport</key>
+		<string>1234</string>
+		<key>localport</key>
+		<string>1234</string>
+	</dict>
+	<key>tunnel 2</key>
+	<dict>
+		<key>tunnelname</key>
+		<string>Test Tunnel 2</string>
+		<key>user</key>
+		<string>anotheruser</string>
+		<key>tunnelserver</key>
+		<string>tunnel-in.through-here.server.com</string>
+		<key>targetserver</key>
+		<string>the-server</string>
+		<key>remoteport</key>
+		<string>22</string>
+		<key>localport</key>
+		<string>2222</string>
+	</dict>
+</dict>
+</plist>
