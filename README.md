@@ -34,4 +34,6 @@ The first example could forward an application running on port 1234, e.g. a jupy
 
 Upon launching, SSHtunnel embeds itself in the status bar with a lock and key emoji. It lists all tunnels that have been configured in `.SSHtunnel.plist` at the top. A click on the respective connection upons the tunnel and displays feedback through a notification. When closing connections, a notification lists the number of closed connections. Open tunnels are listed in a popup window.
 
+You can see the status of the connection through the lock icon: an open lock means unconnected and a closed lock connected to the tunnel server.
+
 ![SSHtunnel](https://github.com/GiantMolecularCloud/SSHtunnel/blob/main/doc/open-tunnel.png "open tunnel")
